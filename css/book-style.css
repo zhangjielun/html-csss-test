@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?oadlt9');
+    src:  url('../fonts/icomoon.eot?oadlt9#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?oadlt9') format('truetype'),
+      url('../fonts/icomoon.woff?oadlt9') format('woff'),
+      url('../fonts/icomoon.svg?oadlt9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+a {
+    text-decoration-line: none;
+}
+li {
+    list-style: none;
+}
+.title {
+    width: 1400px;
+    height: 66px;
+    margin: 0 auto;
+}
+.title h1 {
+    font-family: 'icomoon';
+    font-size: 50px;
+    text-align: center;
+}
+.bg {
+    width: 100%;
+    height: 60px;
+}
+.bg .nav {
+    width: 1400px;
+    margin: 0 auto;
+}
+.bg .nav-left {
+    float: left;
+    width: 240px;
+    height: 60px;
+}
+.bg .nav-left .head {
+    width: 240px;
+    height: 60px;
+    background-color: #252428;
+}
+.bg .nav-left .head p {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.bg .nav-left .list ul {
+    width: 240px;
+    height: 360px;
+    margin-left: -40px;
+    margin-top: 10px;
+    /* border-right: 2px solid slategrey; */
+}
+.bg .nav-left .list ul li {
+    width: 240px;
+    height: 60px;
+}
+.bg .nav-left .list ul li a {
+    float: left;
+    display: block;
+    width: 105px;
+    height: 60px;
+    padding-left: 15px;
+}
+.bg .nav-left .list ul li span:hover {
+    color: #ed4259;
+}
+.bg .nav-left .list ul li .iconfont:hover {
+    margin-left: -10px;
+    color: #ed4259;
+}
+.bg .nav-left .list ul li span {
+    font-size: 18px;
+    color: #333;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 24px;
+    color: #333;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bg .nav-right {
+    float: left;
+    width: 1160px;
+    height: 60px;
+    background-color: #3e3d43;
+}
+.bg .nav-right ul {
+    width: 1160px;
+    height: 60px;
+}
+.bg .nav-right ul li {
+    float: left;
+    height: 60px;
+}
+.bg .nav-right ul li a {
+    display: inline-block;
+    margin-right: 60px;
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+}
+.bg .nav-right ul li a:hover {
+    background-color: #333;
+}
+.body {
+    width: 1400px;
+    margin: 0 auto;
+}
+.body .pic div i a {
+    color: grey;
+}
+.body .pic div i a:hover {
+    color: #fff;
+}
+.body .pic {
+    position: relative;
+    left: 300px;
+    width: 1151px;
+    height: 450px;
+}
+.pic div img {
+    float: left;
+    width: 718px;
+    height: 303px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.pic div p {
+    position: absolute;
+    top: 290px;
+    left: 0px;
+    color: #fff;
+    background-color: rgb(0,0,0,0.6);
+}
+.pic div i {
+    font-style: normal;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    width: 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.pic div .ri {
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+.pic div .lf {
+    position: absolute;
+    top: 130px;
+    left: 698px;
+}
+.pic .rank {
+    float: left;
+    margin-right: 40px;
+    width: 236px;
+    height: 400px;
+}
+.pic .rank ul {
+    width: 236px;
+    height: 386px;
+}
+.pic .rank ul li {
+    width: 236px;
+    height: 36px;
+    border-bottom: 1px dashed gray;
+}
+.pic .rank ul li em {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    font-style: normal;
+}
+.pic .rank ul .li1 i{
+    float: left;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #d32f2f;
+}
+.pic .rank ul .li1 div{
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.pic .rank ul .li1 div a {
+    color: #333;
+    font-size: 14px;
+}
+.pic .rank ul .li2 i{
+    float: left;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.pic .rank ul .li2 div{
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.pic .rank ul .li2 div a {
+    color: #333;
+    font-size: 14px;
+}
+.pic .rank ul li div a:hover {
+    color: #e84848;
+}
+.recommend {
+    width: 1400px;
+    margin: 40px auto 10px;
+}
+.recommend h3 {
+    color: #333;
+    font-size: 30px;
+}
+.recommend .bg {
+    width: 1350px;
+    height: 350px;
+    margin: 0 auto;
+}
+.recommend .rd-body {
+    float: left;
+    width: 430px;
+    height: 300px;
+    margin-left: 20px;
+}
+.recommend .rd-body .imgs {
+    float: left;
+}
+.recommend .rd-body .imgs:hover {
+    transform: scale(1.2,1.2);
+}
+.recommend .rd-body .t {
+    width: 190px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+}
+.recommend .rd-body .t p {
+    font-size: 18px;
+    color: #4c4c4c;
+}
+.recommend .rd-body .t p:hover {
+    color: #d1483c;
+}
+.recommend .rd-body .t em {
+    font-size: 12px;
+    color: #666;
+    font-style: normal;
+}
+.recommend .rd-body .t i {
+    height: 200px;
+    display: inline-block;
+    font-style: normal;
+    color: #888;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.recommend .rd-body .t span {
+    color: #665555;
+    font-size: 16px;
+}
+.recommend .rd-body .t span:hover {
+    color: #c9483c;
+}
+.recommend .rd-body .imgs a img {
+    width: 200px;
+    height: 300px;
+}
+.boy {
+    width: 1400px;
+    height: 430px;
+    margin: 0 auto;
+}
+.boy h3 span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.boy h3 a span:hover {
+    color: blue;
+}
+.boy .boy-left {
+    float: left;
+    width: 236px;
+    height: 410px;
+}
+.boy .boy-right {
+    float: left;
+    width: 1164px;
+    height: 410px;
+}
+.boy .boy-left img {
+    width: 170px;
+    height: 220px;
+    margin-left: 33px;
+}
+.boy .boy-left img:hover {
+    transform: scale(1.1,1.1);
+}
+.boy .boy-left h5 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.boy .boy-left h5 a {
+    color: #333;
+}
+.boy .boy-left h5 a:hover {
+    color: #e84848;
+}
+.boy .boy-left .author {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+.boy .boy-left .author a {
+    color: #333;
+}
+.boy .boy-left .author a:hover {
+    color: #e84848;
+}
+.boy .boy-left .intro {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 12px;
+}
+.boy .boy-left .t {
+    width: 190px;
+    font-size: 13px;
+    color: #333;
+    margin: 10px auto;
+}
+.boy .boy-left .read {
+    display: inline-block;
+    width: 236px;
+}
+.boy .boy-left .read p {
+    font-style: normal;
+    margin: 10px auto 0;
+    text-align: center;
+    width: 80px;
+    height: 26px;
+    color: #fff;
+    background-color: brown;
+}
+.boy .boy-left .read p:hover {
+    background-color: #e84848;
+}
+.boy .boy-right ul {
+    width: 1164px;
+    height: 410px;
+}
+.boy .boy-right ul li {
+    float: left;
+    width: 388px;
+    height: 205px;
+}
+.boy .boy-right ul li div {
+    float: left;
+}
+.boy .boy-right ul li h4 a {
+    font-size: 16px;
+    color: #161616;
+}
+.boy .boy-right ul li h4 a:hover {
+    color: #ed4259;
+}
+.boy .boy-right ul li .author {
+    color: #a6a6a6;
+}
+.boy .boy-right ul li .author:hover {
+    color: #262626;
+}
+.boy .boy-right ul li .txt {
+    margin-left: 10px;
+}
+.boy .boy-right ul li p {
+    width: 250px;
+    height: 63px;
+    margin: 10px 0;
+    font-style: 16px;
+    color: #666666;
+    background-color: #f1f2f6;
+}
+.boy .boy-right ul li div span {
+    float: right;
+}
+.boy .boy-right ul li div .sp1 {
+    font-style: 12px;
+    color: gray;
+    border: 1px solid gray;
+}
+.boy .boy-right ul li div .sp2 {
+    font-style: 12px;
+    color: #bf2c24;
+    border: 1px solid #bf2c24;
+}
+.girl {
+    width: 1400px;
+    height: 500px;
+    margin: 50px auto 0;
+}
+.girl h3 span {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.girl h3 a span:hover {
+    color: blue;
+}
+.girl .girl-left {
+    float: left;
+    width: 236px;
+    height: 410px;
+}
+
+.girl .girl-left img {
+    width: 170px;
+    height: 220px;
+    margin-left: 33px;
+}
+.girl .girl-left img:hover {
+    transform: scale(1.1,1.1);
+}
+.girl .girl-left h5 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.girl .girl-left h5 a {
+    color: #333;
+}
+.girl .girl-left h5 a:hover {
+    color: #e84848;
+}
+.girl .girl-left .author {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+.girl .girl-left .author a {
+    color: #333;
+}
+.girl .girl-left .author a:hover {
+    color: #e84848;
+}
+.girl .girl-left .intro {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 12px;
+}
+.girl .girl-left .t {
+    width: 190px;
+    font-size: 13px;
+    color: #333;
+    margin: 10px auto;
+}
+.girl .girl-left .read {
+    display: inline-block;
+    width: 236px;
+}
+.girl .girl-left .read p {
+    font-style: normal;
+    margin: 10px auto 0;
+    text-align: center;
+    width: 80px;
+    height: 26px;
+    color: #fff;
+    background-color: brown;
+}
+.girl .girl-left .read p:hover {
+    background-color: #e84848;
+}
+.girl-right {
+    float: left;
+    width: 1164px;
+    height: 440px;
+}
+.girl-right .girl-right-list {
+    float: left;
+    width: 291px;
+    height: 410px;
+}
+.girl-right .girl-right-list .title {
+    width: 291px;
+    height: 40px;
+}
+.girl-right .girl-right-list .title .title-left {
+    font-size: 20px;
+    color: #333;
+    line-height: 40px;
+}
+.girl-right .girl-right-list .title .title-right {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999;
+    margin-right: 10px;
+}
+.girl-right .girl-right-list .title .title-right::after {
+    content: '>';
+}
+.girl-right .girl-right-list .title .title-right:hover {
+    text-decoration-line: underline;
+    color: #e84848;
+}
+.girl-right .girl-right-list img {
+    float: left;
+    width: 128px;
+    height: 166px;
+}
+.girl-right .girl-right-list .pic {
+    width: 291px;
+    height: 166px;
+    margin-left: 10px;
+}
+.girl-right .girl-right-list .pic i {
+    font-style: normal;
+    font-size: 18px;
+    color: #333;
+}
+.girl-right .girl-right-list .pic i:hover {
+    color: #e84848;
+}
+.girl-right .girl-right-list .pic p {
+    float: left;
+    width: 150px;
+    height: 142px;
+    color: #666666;
+    padding-top: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.girl-right .girl-right-list ul {
+    width: 291px;
+    height: 234px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.girl-right .girl-right-list ul li {
+    width: 270px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dashed gray;
+}
+.girl-right .girl-right-list ul li span {
+    font-size: 16px;
+    color: #999;
+}
+.girl-right .girl-right-list ul li a {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #333333;
+}
+.girl-right .girl-right-list ul li a:hover {
+    color: #e84848;
+}
+.new {
+    width: 1400px;
+    height: 440px;
+    margin: 30px auto 0;
+    /* background-color: violet; */
+}
+.new h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.new table {
+    width: 1400px;
+}
+.new table .tr1 {
+    width: 1400px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+}
+.new table a {
+    color: #333;
+    font-style: 18px;
+}
+.new table a:hover {
+    color: #e84848;
+}
+.new table .c {
+    width: 100px;
+    line-height: 30px;
+}
+.new table .name {
+    width: 280px;
+    line-height: 30px;
+}
+.new table .chapter {
+    width: 480px;
+    line-height: 30px;
+}
+.new table .author {
+    width: 180px;
+    line-height: 30px;
+}
+.new table .number {
+    width: 169px;
+    line-height: 30px;
+}
+.new table .date {
+    width: 169px;
+    line-height: 30px;
+}

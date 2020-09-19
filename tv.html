@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>电视剧</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+   <link rel="stylesheet" href="./css/tvstyle.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./css/tv_style.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+    }
+    .swiper-container {
+      position: relative;
+      width: 100%;
+      height: 520px;
+      margin-top: 20px;
+    }
+    .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: 520px;
+    }
+    .swiper-slide {
+      width: 100%;
+      height: 520px;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      width: 100%;
+      height: 520px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg">
+    <div class="nav">
+      <ul>
+        <li><a href="index.html"><p>首页</p></a></li>
+        <li><a href="#1"><p>国产</p></a></li>
+        <li><a href="#2"><p>日剧</p></a></li>
+        <li><a href="#3"><p>美剧</p></a></li>
+        <li><a href="#4"><p>韩剧</p></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="./sy/39.png" alt="" title="鹤唳华亭"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/40.jpg" alt="" title="未经安排的青春"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/41.jpg" alt="" title="第二次也很美"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/42.jpg" alt="" title="热爱"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/43.webp" alt="" title="剑王朝"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/44.jpg" alt="" title="庆余年"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/45.jpg" alt="" title="漫长的告别"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/46.jpg" alt="" title="热爱"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/47.jpg" alt="" title="大明风华"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./sy/48.jpg" alt="" title="从前有座灵剑山"></a></div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./js/tv-style.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      cssMode: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination'
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+  <div class="new">
+    <div class="bd">
+      <h3>最新热剧</h3>
+      <div>
+        <ul>
+          <li>
+            <a href="#"><img src="./sy/49.png" alt="" title="大明风华"></a>
+            <div>
+              <a href="#">大明风华</a>
+              <p>汤唯朱亚文书写明代传奇</p>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="./sy/50.jpg" alt="" title="第二次也很美"></a>
+            <div>
+              <a href="#">第二次也很美</a>
+              <p>王子文张鲁一浪漫带娃恋爱</p>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="./sy/51.jpg" alt="" title="鹤唳华亭"></a>
+            <div>
+              <a href="#">鹤唳华亭</a>
+              <p>年度巨制 高能反转</p>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="./sy/52.jpg" alt="" title="热爱"></a>
+            <div>
+              <a href="#">热爱</a>
+              <p>老戏骨爆笑解读都市百态</p>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="./sy/53.jpg" alt="" title="漫长的告别"></a>
+            <div>
+              <a href="#">漫长的告别</a>
+              <p>周峻纬何晟铭烧脑追凶</p>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="./sy/54.jpg" alt="" title="未经安排的青春"></a>
+            <div>
+              <a href="#">未经安排的青春</a>
+              <p>小萌新杠上傲娇设计师</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="recommend">
+    <h3>推荐<a href="#"><span>更多&gt;</span></a></h3>
+    <div class="bd">
+      <div class="left">
+        <a href="#"><img src="./dsj/29.webp" alt="" title="韩剧】天空之城"></a>
+        <a href="#" class="t">【韩剧】天空之城</a>
+        <div class="cover"></div>
+      </div>
+      <div class="right">
+        <div class="body">
+          <a href="#"><img src="./dsj/30.jpg" alt="【美剧】权力的游戏第八季"></a>
+          <a href="#" class="t">【美剧】权力的游戏第八季</a>
+          <div class="cover"></div>
+        </div>
+        <div class="body">
+          <a href="#"><img src="./dsj/31.jpg" alt="【美剧】切尔诺贝利"></a>
+          <a href="#" class="t">【美剧】切尔诺贝利</a>
+          <div class="cover"></div>
+        </div>
+        <div class="body">
+          <a href="#"><img src="./dsj/32.jpg" alt="【英剧】去他妈的世界 第一季"></a>
+          <a href="#" class="t">【英剧】去他妈的世界 第一季</a>
+          <div class="cover"></div>
+        </div>
+        <div class="body">
+          <a href="#"><img src="./dsj/33.jpg" alt="【日剧】我是大哥大"></a>
+          <a href="#" class="t">【日剧】我是大哥大 </a>
+          <div class="cover"></div>
+        </div>
+        <div class="body">
+          <a href="#"><img src="./dsj/34.jpg" alt="【美剧】黑袍纠察队 第一季"></a>
+          <a href="#" class="t">【美剧】黑袍纠察队 第一季</a>
+          <div class="cover"></div>
+        </div>
+        <div class="body">
+          <a href="#"><img src="./dsj/35.jpg" alt="【日剧】一公升的眼泪"></a>
+          <a href="#" class="t">【日剧】一公升的眼泪</a>
+          <div class="cover"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cn">
+    <a name="1"></a>
+    <h3>国产电视剧<a href="#"><span>更多&gt;</span></a></h3>
+    <div class="cn-body">
+      <div class="body">
+        <a href="#"><img src="./dsj/1.jpg" alt="" title="铁探"></a>
+        <div>
+          <a href="#">铁探</a>
+          <p>尚垶与警界高层权力的相争</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/2.jpg" alt="" title="薛定谔的猫"></a>
+        <div>
+          <a href="#">薛定谔的猫</a>
+          <p>一部手机引起的穿越故事</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/3.jpg" alt="" title="少年有点酷"></a>
+        <div>
+          <a href="#">少年有点酷</a>
+          <p>薛定谔的猫第二季</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/5.jpg" alt="" title="我们与恶的距离"></a>
+        <div>
+          <a href="#">我们与恶的距离</a>
+          <p>律师，犯人家属和受害者家属间的关系</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/19.jpg" alt="" title="长安十二时辰"></a>
+        <div>
+          <a href="#">长安十二时辰</a>
+          <p>佳玺合璧守护长安</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/20.jpg" alt="" title="镇魂街 第一季"></a>
+        <div>
+          <a href="#">镇魂街 第一季</a>
+          <p>汪东城跨次元救世</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/21.jpg" alt="" title="微微一笑很倾城"></a>
+        <div>
+          <a href="#">微微一笑很倾城</a>
+          <p>杨洋郑爽公开撒糖</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jp">
+    <a name="2"></a>
+    <h3>日剧<a href="#"><span>更多&gt;</span></a></h3>
+    <div class="jp-body">
+      <div class="body">
+        <a href="#"><img src="./dsj/4.jpg" alt="" title="mother"></a>
+        <div>
+          <a href="#">mother</a>
+          <p>铃原奈绪担当起作为母亲的责任</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/6.jpg" alt="" title="Unnatural"></a>
+        <div>
+          <a href="#">Unnatural</a>
+          <p>非自然死亡背后必有要法医追究的真相</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/14.jpg" alt="" title="明天妈妈不在"></a>
+        <div>
+          <a href="#">明天妈妈不在</a>
+          <p>对于与父母分离的儿童什么是爱和被爱</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/17.jpg" alt="" title="山田孝之的戛纳电影节"></a>
+        <div>
+          <a href="#">山田孝之的戛纳电影节</a>
+          <p>山田孝之以戛纳奖为目标制作电影的过程</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/18.jpg" alt="" title="无间双龙"></a>
+        <div>
+          <a href="#">无间双龙</a>
+          <p>两个福利院的青年成为“双龙”的故事</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/23.jpg" alt="" title="成熟女子"></a>
+        <div>
+          <a href="#">成熟女子</a>
+          <p>四十岁大龄少女的青涩爱情</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/24.jpg" alt="" title="四十岁大龄少女的青涩爱情"></a>
+        <div>
+          <a href="#">四十岁大龄少女的青涩爱情</a>
+          <p>“贷款”买个男朋友</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="am">
+    <a name="3"></a>
+    <h3>美剧<a href="#"><span>更多&gt;</span></a></h3>
+    <div class="am-body">
+      <div class="body">
+        <a href="#"><img src="./dsj/7.jpg" alt="" title="越狱"></a>
+        <div>
+          <a href="#">越狱</a>
+          <p>为救哥哥逃狱自己先进监狱</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/8.jpg" alt="" title="去他妈的世界"></a>
+        <div>
+          <a href="#">去他妈的世界</a>
+          <p>詹姆斯和艾丽萨相互治愈的故事</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/9.jpg" alt="" title="性爱自修室"></a>
+        <div>
+          <a href="#">性爱自修室</a>
+          <p>欧帝斯在高中的性爱治疗谘询</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/10.jpg" alt="" title="行尸走肉"></a>
+        <div>
+          <a href="#">行尸走肉</a>
+          <p>世界末日中的真实人性</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/25.webp" alt="" title="悲惨世界"></a>
+        <div>
+          <a href="#">悲惨世界</a>
+          <p>冉阿让自我救赎的悲惨一生</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/26.webp" alt="" title="星际迷航:发现号1"></a>
+        <div>
+          <a href="#">星际迷航:发现号1</a>
+          <p>开启奇妙星际之旅</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/27.jpg" alt="" title="利器"></a>
+        <div>
+          <a href="#">利器</a>
+          <p>女性自我认知和探索 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ko">
+    <a name="4"></a>
+    <h3>韩剧<a href="#"><span>更多&gt;</span></a></h3>
+    <div class="ko-body">
+      <div class="body">
+        <a href="#"><img src="./dsj/4.png" alt="" title="天空之城"></a>
+        <div>
+          <a href="#">天空之城</a>
+          <p>上层人士的执念</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/11.jpg" alt="" title="他人即地狱"></a>
+        <div>
+          <a href="#">他人即地狱</a>
+          <p>住在考试院的人们</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/12.jpg" alt="" title="啊！因为是男高，所以很幸福"></a>
+        <div>
+          <a href="#">啊！因为是男高，所以很幸福</a>
+          <p>南九和圣峰微小而有趣的男高生活</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/13.jpg" alt="" title="tempo girl"></a>
+        <div>
+          <a href="#">tempo girl</a>
+          <p>国标舞女孩的青春</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/15.jpg" alt="" title="你是谁 - 学校2015"></a>
+        <div>
+          <a href="#">你是谁 - 学校2015</a>
+          <p>强势的姐姐替妹妹面对校园暴力</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/16.jpg" alt="" title="哦我的鬼神大人"></a>
+        <div>
+          <a href="#">哦我的鬼神大人</a>
+          <p>附身少女的女鬼和不信鬼的厨师的故事</p>
+        </div>
+      </div>
+      <div class="body">
+        <a href="#"><img src="./dsj/28.webp" alt="" title="请回答1988"></a>
+        <div>
+          <a href="#">请回答1988</a>
+          <p>以家族关系和邻里感情</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

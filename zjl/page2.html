@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音乐</title>
+    <style>
+        img{
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+        }
+        a:link{
+            text-decoration-line: none;
+        }
+        table{
+            border: 1px solid;
+            font-size: 35px;
+            border-collapse: collapse;
+            width: 1000px;
+            height: 400px;
+            color: steelblue;
+        }
+        tr td{
+            border: 1px solid black;
+        }
+        p{
+            font-size: 30px;
+            text-align: center;
+        }
+        .a{
+            width: 300px;
+            float: left;
+            margin: 40px;
+        }
+        .b{
+            width: 1600px;
+            height: 1600px;
+            margin: 20px;
+        }
+        h1{
+            font-size: 50px;
+            font-family: 正楷;
+        }
+        span{
+            color: red;
+        }
+        #bu{
+            position: fixed; right: 0px; top: 90%;
+            width: 80px;
+            height: 80px;
+            font-size: 40px;
+        }
+        body{
+            background:linear-gradient(45deg ,greenyellow,skyblue);
+        }
+        .c{
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        table{
+            margin: 80px;
+        }
+    </style>
+</head>
+<body>
+    <a name="dingbu"></a>
+    <h1>点击<span>图片</span>查看专辑详情，点击<span>文字</span>查看专辑歌曲列表</h1>
+    <div class="b">
+        <div class="a"><a href="https://baike.baidu.com/item/Jay/5291" target="_blank"><img src="./fm/1.jpg" alt=""></a><p><a href="#1">Jay</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E8%8C%83%E7%89%B9%E8%A5%BF/22666" target="_blank"> <img src="./fm/2.jpg" alt=""></a><p><a href="#2">范特西</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E5%85%AB%E5%BA%A6%E7%A9%BA%E9%97%B4/1347996?fr=aladdin" target="_blank"> <img src="./fm/3.jpg" alt=""></a><p><a href="#3">八度空间</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E5%8F%B6%E6%83%A0%E7%BE%8E/893" target="_blank"><img src="./fm/4.jpg" alt=""></a><p><a href="#4">叶惠美</a></p></div><br>
+        <div class="a"><a href="https://baike.baidu.com/item/%E4%B8%83%E9%87%8C%E9%A6%99/2181450" target="_blank"><img src="./fm/5.jpg" alt=""></a><p><a href="#5">七里香</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/11%E6%9C%88%E7%9A%84%E8%90%A7%E9%82%A6/467565?fromtitle=%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E8%90%A7%E9%82%A6&fromid=468218" target="_blank"><img src="./fm/6.jpg" alt=""></a><p><a href="#6">11月的肖邦</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E4%BE%9D%E7%84%B6%E8%8C%83%E7%89%B9%E8%A5%BF/7709602" target="_blank"><img src="./fm/7.jpg" alt=""></a><p><a href="#7">依然范特西</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E6%88%91%E5%BE%88%E5%BF%99/1374653" target="_blank"><img src="./fm/8.jpg" alt=""></a><p><a href="#8">我很忙</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E9%AD%94%E6%9D%B0%E5%BA%A7/49875" target="_blank"><img src="./fm/9.png" alt=""></a><p><a href="#9">魔杰座</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E8%B7%A8%E6%97%B6%E4%BB%A3/516122" target="_blank"><img src="./fm/10.jpg" alt=""></a><p><a href="#10">跨时代</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E6%83%8A%E5%8F%B9%E5%8F%B7%EF%BC%81/10482087?fr=aladdin" target="_blank"><img src="./fm/11.jpg" alt=""></a><p><a href="#11">惊叹号!</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/12%E6%96%B0%E4%BD%9C/8186612?fr=aladdin" target="_blank"><img src="./fm/12.jpg" alt=""></a><p><a href="#12">十二新作</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E5%93%8E%E5%91%A6%EF%BC%8C%E4%B8%8D%E9%94%99%E5%93%A6/9851748?fr=aladdin" target="_blank"><img src="./fm/13.jpg" alt=""></a><p><a href="#13">哎呦，不错哦</a></p></div>
+        <div class="a"><a href="https://baike.baidu.com/item/%E5%91%A8%E6%9D%B0%E4%BC%A6%E7%9A%84%E5%BA%8A%E8%BE%B9%E6%95%85%E4%BA%8B/19711456?fr=aladdin" target="_blank"><img src="./fm/14.jpg" alt=""></a><p><a href="#14">周杰伦的床边故事</a></p></div>
+    </div>
+    <div class="c">
+        <div>
+            <table>
+                <a name="1"></a>
+                <tr>
+                    <td width="100"><span>Jay</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004VR0Hn3bkqqE.html" target="_blank">可爱女人</a></td>
+                    <td>徐若瑄</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001NQNgU2HfxJg.html" target="_blanl">完美主义</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001Zi7Ly4ZtVQk.html" target="_blank">星晴</a></td>
+                    <td>周杰伦</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002pImGM1R2Afa.html" target="_blank">娘子</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003J20t02i1vV5.html" target="_blank">斗牛</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0006rBfE3htPqG.html" target="_blank">黑色幽默</a></td>
+                    <td>周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0033ZO6x09eHB0.html" target="_blank">伊斯坦堡</a></td>
+                    <td>徐若瑄</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002GQJAQ3w9yuh.html" target="_blank">印地安老斑鸠</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002l8JN71d2Dxy.html" target="_blank">龙卷风</a></td>
+                    <td>徐若瑄</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0017K7gL4WYnw2.html" target="_blank">反方向的钟</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="2"></a>
+                <tr>
+                    <td width="100"> <span>范特西</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002usg9o4GTAKf.html" target="_blank">爱在西元前</a></td>
+                    <td>方文山</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001mhQbn2eKHiR.html" target="_blanl">爸我回来了</a></td>
+                    <td>周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0009BCJK1nRaad.html" target="_blank">简单爱</a></td>
+                    <td>徐若瑄</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001MNqZU3YDLrE.html" target="_blank">忍者</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0020qX4u2JJRxK.html" target="_blank">开不了口</a></td>
+                    <td>徐若瑄</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002YzCdA2Hybr0.html" target="_blank">上海一九四三</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000F0lmz1cBq4c.html" target="_blank">对不起</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0046grpK0A1l9G.html" target="_blank">威廉古堡</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/00218ObD0yrANX.html" target="_blank">双截棍</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000amRvH3wxv56.html" target="_blank">安静</a></td>
+                    <td>周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="3"></a>
+                <tr>
+                    <td width="100"> <span>八度空间</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001FUQiy2ZCiVt.html" target="_blank">半兽人</a></td>
+                    <td>方文山</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002OKIox28ad9a.html" target="_blanl">半岛铁盒</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000NQDjk4BA0W3.html" target="_blank">暗号</a></td>
+                    <td>许世昌</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004R20x748kyO1.html" target="_blank">龙拳</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002h3LO64ElQP2.html" target="_blank">火车叨位去</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002U3qIp3n7yke.html" target="_blank">分裂</a></td>
+                    <td>周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002IyJxz0FBFEJ.html" target="_blank">爷爷泡的茶</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003rxgIM2eOFSF.html" target="_blank">回到过去</a></td>
+                    <td>刘畊宏</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001HdNmX0urp4Q.html" target="_blank">米兰的小铁匠</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000HafPI0dzzwp.html" target="_blank">最后的战役</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="4"></a>
+                <tr>
+                    <td width="100"> <span>叶惠美</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001n4C3p1yv0FU.html" target="_blank">以父之名</a></td>
+                    <td>黄俊郎</td>
+                    <td rowspan="11">周杰伦</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000ZauFj0E8qi0.html" target="_blanl">懦夫</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0039MnYb0qxYhV.html" target="_blank">晴天</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004csbVP1E2dv1.html" target="_blank">三年二班</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003uEbEr0jcW7c.html" target="_blank">东风破</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002elTc93yuXu2.html" target="_blank">你听得到</a></td>
+                    <td>曾郁婷</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000U62Ay0ndxCh.html" target="_blank">同一种调调</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001FSVRg08JLpi.html" target="_blank">她的睫毛</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0037FWzg2csDmh.html" target="_blank">爱情悬崖</a></td>
+                    <td>徐若瑄</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000P0AxP15jei5.html" target="_blank">梯田</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003BkwkH0iS8Ko.html" target="_blank">双刀</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="5"></a>
+                <tr>
+                    <td width="100"> <span>七里香</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004WrpV81DMGHv.html" target="_blank">我的地盘</a></td>
+                    <td>方文山</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004MQUa83RyfVJ.html" target="_blanl">七里香</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002XWgfo0IKPOH.html" target="_blank">借口</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0027gHes1HjRNe.html" target="_blank">外婆</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000yJtoB39k2NF.html" target="_blank">将军</a></td>
+                    <td>黄俊郎</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001Bbywq2gicae.html" target="_blank">搁浅</a></td>
+                    <td>宋健彰</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0031tzbX3Lps0M.html" target="_blank">乱舞春秋</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0048Gwq23HPs1o.html" target="_blank">困兽之斗</a></td>
+                    <td>刘耕宏</td>
+                    <td>蔡科俊</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003nEQHr3Ceet5.html" target="_blank">园游会</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0042fRqf4fC8ZB.html" target="_blank">止战之殇</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="6"></a>
+                <tr>
+                    <td width="100"> <span>十一月的肖邦</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001zMQr71F1Qo8.html" target="_blank">夜曲</a></td>
+                    <td>方文山</td>
+                    <td rowspan="12">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004MQUa83RyfVJ.html" target="_blanl">蓝色风暴</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0027oMO61wWi55.html" target="_blank">发如雪</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003iY6cU4YG0xi.html" target="_blank">黑色毛衣</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0043qT5x2DnxaL.html" target="_blank">四面楚歌</a></td>
+                    <td>周杰伦</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003KtYhg4frNXC.html" target="_blank">枫</a></td>
+                    <td>宋健彰</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002fi7iG0VvUj2.html" target="_blank">浪漫手机</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003Q71hB2wOpFU.html" target="_blank">逆鳞</a></td>
+                    <td>黄俊郎</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003WtI8C0FMf3r.html" target="_blank">麦芽糖</a></td>
+                    <td>方文山</td>
+                    <td>洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001K0AjL2huSxx.html" target="_blank">珊瑚海</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004DI5Vw0DnEOW.html" target="_blanl">飘移</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001xd0HI0X9GNq.html" target="_blanl">一路向北</a></td>
+                    <td>方文山</td>
+                    <td>蔡科俊</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="7"></a>
+                <tr>
+                    <td width="100"> <span>依然范特西</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0010ibBn4bYFTk.html" target="_blank">夜的第七章</a></td>
+                    <td>黄俊郎</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>钟兴民、林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002hXDfk0LX9KO.html" target="_blanl">听妈妈的话</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可、洪敬尧</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003FRy0r0wyGHl.html" target="_blank">千里之外</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001bo9Wy1NfHpb.html" target="_blank">本草纲目</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001L1lqm4UAdyo.html" target="_blank">退后</a></td>
+                    <td>宋健彰</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000Ookkj0sEkfD.html" target="_blank">红模仿</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000Fylg7450RG2.html" target="_blank">心雨</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000DdOAF0ED7i4.html" target="_blank">白色风车</a></td>
+                    <td>周杰伦</td>
+                    <td>蔡科俊</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0016oRIN0hu5zE.html" target="_blank">迷迭香</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004RUiXu49ufy1.html" target="_blank">菊花台</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="8"></a>
+                <tr>
+                    <td width="100"> <span>我很忙</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003O5GaP1SYe94.html" target="_blank">牛仔很忙</a></td>
+                    <td>黄俊郎</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004bRWFg3fej9y.html" target="_blanl">彩虹</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002qU5aY3Qu24y.html" target="_blank">青花瓷</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001bnNGN127Kbq.html" target="_blank">阳光宅男</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004Yi5BD3ksoAN.html" target="_blank">蒲公英的约定</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002Jp6If3ltWv9.html" target="_blank">无双</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001T3JAT15palI.html" target="_blank">我不配</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0008S2Z53H5C07.html" target="_blank">扯</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000xdZuV2LcQ19.html" target="_blank">甜甜的</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003ZrdgZ0UnjDl.html" target="_blank">最长的电影</a></td>
+                    <td>周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="9"></a>
+                <tr>
+                    <td width="100"> <span>魔杰座</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000B3Ekk1I79hc.html" target="_blank">龙战骑士</a></td>
+                    <td>方文山</td>
+                    <td rowspan="11">周杰伦</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004BhQke4adHcf.html" target="_blanl">给我一首歌的时间</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001LNPit4TsTn8.html" target="_blank">蛇舞</a></td>
+                    <td>黄俊郎</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003cI52o4daJJL.html" target="_blank">花海</a></td>
+                    <td>古小力、黄凌嘉</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000HcRmh2IYxm8.html" target="_blank">魔术先生</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0042QMDR1VzSsx.html" target="_blank">好的幸福呢</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/00128N3r2SYKMF.html" target="_blank">兰亭序</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003suDvd4KLUmF.html" target="_blank">流浪诗人</a></td>
+                    <td>方文山</td>
+                    <td>蔡科俊</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000sRQrz0aEDFp.html" target="_blank">时光机</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002kuUy64JJlDi.html" target="_blank">乔克叔叔</a></td>
+                    <td>黄俊郎</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003aAYrm3GE0Ac.html" target="_blank">稻香</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="10"></a>
+                <tr>
+                    <td width="100"> <span>跨时代</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004gKsOK06opcc.html" target="_blank">跨时代</a></td>
+                    <td>黄俊郎</td>
+                    <td rowspan="11">周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/00265Jxe3JzXOJ.html" target="_blanl">说了再见</a></td>
+                    <td>古小力、黄凌嘉</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004emQMs09Z1lz.html" target="_blank">烟花易冷</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004Kvozl3zYFGx.html" target="_blank">免费教学录影带</a></td>
+                    <td>黄俊郎</td>
+                    <td>蔡科俊</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002RqWle4FvqRy.html" target="_blank">好久不见</a></td>
+                    <td>周杰伦</td>
+                    <td>蔡庭贵</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002zouNc0L8Llg.html" target="_blank">雨下一整晚</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000ES19W2iTudx.html" target="_blank">嘻哈空姐</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001m34Zb4UwCcl.html" target="_blank">我落泪·情绪零碎</a></td>
+                    <td>方文山</td>
+                    <td>钟兴民</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003CxS6w14OQyM.html" target="_blank">爱的飞行日记</a></td>
+                    <td>方文山</td>
+                    <td>蔡科俊</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003KrQ401gzm8x.html" target="_blank">自导自演</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004JQ70v4Fddyj.html" target="_blank">超人不会飞</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="11"></a>
+                <tr>
+                    <td width="100"> <span>惊叹号！</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001TtMaW2j3k2h.html" target="_blank">惊叹号</a></td>
+                    <td>方文山</td>
+                    <td rowspan="11">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0016Wf0A0FhLBt.html" target="_blanl">迷魂曲</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002CUU2B3WuGLc.html" target="_blank">Mine Mine</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003hWWWP4Rdj4A.html" target="_blank">公主病</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0040Dgn94YNWxA.html" target="_blank">你好吗</a></td>
+                    <td>罗宇轩、李汪哲</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001CiqFG20FOXg.html" target="_blank">疗伤烧肉粽</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000BZGDQ24uwTT.html" target="_blank">琴伤</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0019fxNe1bLVch.html" target="_blank">水手怕水</a></td>
+                    <td>黄俊郎</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002I7ms805kX4p.html" target="_blank">世界未末日</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003HuF913gIZQ3.html" target="_blank">皮影戏</a></td>
+                    <td>从从</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000rVzOf3JnUQg.html" target="_blank">超跑女神</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="12"></a>
+                <tr>
+                    <td width="100"> <span>十二新作</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0010jyte3izshw.html" target="_blank">四季列车</a></td>
+                    <td>方文山</td>
+                    <td rowspan="12">周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003APYKg4GrqPB.html" target="_blanl">手语</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001KTt4d1BTJOz.html" target="_blank">公公偏头痛</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000oW8J53xPhZA.html" target="_blank">明明就</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003t0fFq4JbjaR.html" target="_blank">傻笑</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004O4Kun0wasxn.html" target="_blank">比较大的大提琴</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002tNzue0g8xQA.html" target="_blank">爱你没差</a></td>
+                    <td>黄凌嘉</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003xv4w313tZHV.html" target="_blank">红尘客栈</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001QnhDT0UJJIT.html" target="_blank">梦想启动</a></td>
+                    <td>林义杰</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002jkBM53MLB9Q.html" target="_blank">大笨钟</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002sfzQB12abuc.html" target="_blank">哪里都是你</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001beoYX0K09xu.html" target="_blank">乌克丽丽</a></td>
+                    <td>周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="13"></a>
+                <tr>
+                    <td width="100"> <span>哎哟，不错哦</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003b6hhl3jOPyV.html" target="_blank">阳明山</a></td>
+                    <td>方文山</td>
+                    <td rowspan="12">周杰伦</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003zL01l3vYMKT.html" target="_blanl">窃爱</a></td>
+                    <td>黄俊郎</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001Js78a40BZU6.html" target="_blank">算什么男人</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/00162TQ12285h4.html" target="_blank">天涯过客</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001zqHER0WFQvO.html" target="_blank">怎么了</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003md41m1MBhMc.html" target="_blank">一口气全念对</a></td>
+                    <td>方文山</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0007w9Eb0lilhZ.html" target="_blank">我要夏天</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002u8ZOM4C7QF4.html" target="_blank">手写的从前</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/004KpNVr0EdY0v.html" target="_blank">鞋子特大号</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003BiKB44LknC0.html" target="_blank">听爸爸的话</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/001XPgTm3faHRb.html" target="_blank">美人鱼</a></td>
+                    <td>罗宇轩,黄婕熙</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0026N9sT4aBGcV.html" target="_blank">听见下雨的声音</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <a name="14"></a>
+                <tr>
+                    <td width="100"> <span>周杰伦的床边故事</span></td>
+                    <td width="160">歌名</td>
+                    <td width="120">作词</td>
+                    <td width="120">作曲</td>
+                    <td width="120">编曲</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002MVjb31ZNK5m.html" target="_blank">床边故事</a></td>
+                    <td>方文山</td>
+                    <td rowspan="10">周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003J6p942xp6ho.html" target="_blanl">说走就走</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/002lW4Yl3ylM02.html" target="_blank">一点点</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000cFsFl1o17jp.html" target="_blank">前世情人</a></td>
+                    <td>黄俊郎</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/0040jaL23QceqJ.html" target="_blank">英雄</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000sxzol11raSd.html" target="_blank">不该</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>‘
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003uYI3j4EDf5q.html" target="_blank">土耳其冰淇淋</a></td>
+                    <td>周杰伦</td>
+                    <td>周杰伦</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/003OUlho2HcRHC.html" target="_blank">告白气球</a></td>
+                    <td>方文山</td>
+                    <td>林迈可</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/00376COL0nP51S.html" target="_blank">Now You See Me</a></td>
+                    <td>方文山</td>
+                    <td>黄雨勋</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://y.qq.com/n/yqq/song/000eskGX0ijIFi.html" target="_blank">爱情废柴</a></td>
+                    <td>周杰伦</td>
+                    <td>黄雨勋</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div>
+        <button id="bu">
+            <a href="#dingbu">Top</a>
+        </button>
+    </div>
+</body>
+</html>

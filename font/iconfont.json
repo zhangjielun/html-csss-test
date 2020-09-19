@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "560532",
+      "name": "军事",
+      "font_class": "junshi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "827726",
+      "name": "都市",
+      "font_class": "dushi",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "827729",
+      "name": "奇幻",
+      "font_class": "qihuan",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "827732",
+      "name": "体育",
+      "font_class": "tiyu",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "827734",
+      "name": "玄幻",
+      "font_class": "xuanhuan",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "1615215",
+      "name": "武侠",
+      "font_class": "wuxia",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1944095",
+      "name": "科幻",
+      "font_class": "kehuan",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "2189777",
+      "name": "仙侠",
+      "font_class": "xianxia",
+      "unicode": "e510",
+      "unicode_decimal": 58640
+    },
+    {
+      "icon_id": "2455789",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "4309727",
+      "name": "悬疑灵异",
+      "font_class": "xuanyilingyi",
+      "unicode": "e520",
+      "unicode_decimal": 58656
+    },
+    {
+      "icon_id": "4310745",
+      "name": "现实",
+      "font_class": "xianshi",
+      "unicode": "e522",
+      "unicode_decimal": 58658
+    },
+    {
+      "icon_id": "4727033",
+      "name": "游戏 游戏厅 游戏机 游戏手柄 面性",
+      "font_class": "youxiyouxitingyouxijiyouxishoubingmianxing",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}

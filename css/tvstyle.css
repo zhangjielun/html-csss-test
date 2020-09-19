@@ -1,0 +1,335 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration-line: none;
+}
+li {
+    list-style: none;
+}
+.bg {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.bg .nav {
+    width: 1400px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #00a1d6;
+}
+.bg .nav ul {
+    width: 1400px;
+    height: 80px;
+}
+.bg .nav ul li {
+    float: left;
+    width: 280px;
+    height: 80px;
+}
+.bg .nav p {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 15px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.bg .nav ul li p:hover {
+    background-color: #333;
+}
+.new {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+.new .bd {
+    width: 1664px;
+    margin: 0 auto;
+    background-color: #ffa502;
+}
+h3 {
+    font-size: 28px;
+    color: #333;
+}
+.new .bd ul {
+    width: 1664px;
+    margin: 10px 0;
+}
+.new .bd ul li {
+    float: left;
+    width: 268px;
+    margin-left: 6px;
+}
+.new .bd ul li img {
+    width: 268px;
+}
+.new .bd ul li a {
+    color: #333;
+    font-size: 16px;
+}
+.new .bd ul li p {
+    color: #999;
+    font-size: 12px;
+}
+.new .bd ul li a:hover {
+    color: #148aff;
+}
+.new .bd ul li img:hover {
+    box-shadow: 0 0 3px 5px #c5c5c5;
+}
+.cn {
+    width: 1664px;
+    height: 400px;
+    margin: 10px auto;
+}
+.cn h3 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999;
+}
+.cn h3 a span:hover {
+    color: blue;
+}
+.cn .cn-body {
+    width: 1664px;
+}
+.cn .cn-body .body {
+    float: left;
+    margin: 0 14px;
+}
+.cn .cn-body a img {
+    width: 208px;
+    height: 250px;
+}
+.cn .cn-body a {
+    color: #333;
+    font-size: 16px;
+}
+.cn .cn-body a:hover {
+    color: #148aff;
+}
+.cn .cn-body div p {
+    color: #999;
+    font-size: 12px;
+}
+.cn-body .body img:hover {
+    box-shadow: 0 0 3px 5px #c5c5c5;
+}
+.jp {
+    width: 1664px;
+    height: 400px;
+    margin: 10px auto;
+}
+.jp h3 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999;
+}
+.jp h3 a span:hover {
+    color: blue;
+}
+.jp .jp-body {
+    width: 1664px;
+}
+.jp .jp-body .body {
+    float: left;
+    margin: 0 14px;
+}
+.jp .jp-body a img {
+    width: 208px;
+    height: 250px;
+}
+.jp .jp-body a {
+    color: #333;
+    font-size: 16px;
+}
+.jp .jp-body a:hover {
+    color: #148aff;
+}
+.jp .jp-body div p {
+    color: #999;
+    font-size: 12px;
+}
+.jp-body .body img:hover {
+    box-shadow: 0 0 3px 5px #c5c5c5;
+}
+.am {
+    width: 1664px;
+    height: 400px;
+    margin: 10px auto;
+}
+.am h3 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999;
+}
+.am h3 a span:hover {
+    color: blue;
+}
+.am .am-body {
+    width: 1664px;
+}
+.am .am-body .body {
+    float: left;
+    margin: 0 14px;
+}
+.am .am-body a img {
+    width: 208px;
+    height: 250px;
+}
+.am .am-body a {
+    color: #333;
+    font-size: 16px;
+}
+.am .am-body a:hover {
+    color: #148aff;
+}
+.am .am-body div p {
+    color: #999;
+    font-size: 12px;
+}
+.am-body .body img:hover {
+    box-shadow: 0 0 3px 5px #c5c5c5;
+}
+.ko {
+    width: 1664px;
+    height: 400px;
+    margin: 10px auto;
+}
+.ko h3 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999;
+}
+.ko h3 a span:hover {
+    color: blue;
+}
+.ko .ko-body {
+    width: 1664px;
+}
+.ko .ko-body .body {
+    float: left;
+    margin: 0 14px;
+}
+.ko .ko-body a img {
+    width: 208px;
+    height: 250px;
+}
+.ko .ko-body a {
+    color: #333;
+    font-size: 16px;
+}
+.ko .ko-body a:hover {
+    color: #148aff;
+}
+.ko .ko-body div p {
+    color: #999;
+    font-size: 12px;
+}
+.ko-body .body img:hover {
+    box-shadow: 0 0 3px 5px #c5c5c5;
+}
+.recommend {
+    width: 1664px;
+    height: 550px;
+    margin: 10px auto;
+}
+.recommend h3 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999;
+}
+.recommend h3 a span:hover {
+    color: blue;
+}
+.recommend .left img {
+    width: 100%;
+    height: 100%;
+}
+.recommend .bd {
+    margin-top: 30px;
+    width: 1664px;
+    height: 500px;
+}
+.recommend .bd .left {
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    width: 500px;
+    height: 400px;
+}
+.recommend .bd .left .t {
+    position: absolute;
+    left: 0;
+    top: 370px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+.recommend .bd .left .t:hover {
+    color: rgb(0, 132, 255);
+}
+.recommend .bd .left .cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5) url(./dsj/play.png) no-repeat center;
+}
+.recommend .bd .left:hover  .cover {
+    display: block;
+}
+.recommend .bd .right {
+    float: left;
+    width: 1000px;
+    height: 450px;
+    margin-left: 50px;
+}
+.recommend .bd .right .body {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px; 
+}
+.recommend .bd .right img {
+    width: 300px;
+    height: 200px;
+}
+.recommend .bd .right .t {
+    position: absolute;
+    left: 0;
+    top: 170px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+.recommend .bd .right .t:hover {
+    color: rgb(0, 132, 255);
+}
+.recommend .bd .right .body .cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5) url(./dsj/play.png) no-repeat center;
+}
+.recommend .bd .right .body:hover  .cover {
+    display: block;
+}
